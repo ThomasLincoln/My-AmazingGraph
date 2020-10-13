@@ -1,1 +1,1 @@
-# My-AmazingGraph
+My AmazingGraph

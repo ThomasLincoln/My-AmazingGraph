@@ -1,0 +1,9 @@
+.gallery_product .title {
+
+    color: #766F68;
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    bottom: 130px;
+    right: 300px;

@@ -1,0 +1,100 @@
+body {
+    font-family: roboto;
+    margin-left:30px;
+}
+
+.navbar-brand {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 30px;
+
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-top: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    font-weight: normal;
+    color: #766F68;
+}
+
+.h5 {
+    color: #766F68;
+    margin-left: 7%;
+    z-index: 1;
+    font-size: 30px;
+    margin-top: 5%;
+
+}
+
+.title {
+    color: #766F68;
+    font-weight: bold;
+    margin-left: 7%;
+    font-size: 70px;
+    margin-top: 4%;
+    z-index: 1;
+}
+
+.img-fluid {
+    margin-top: 6%;
+    margin-left: 37%;
+    background-color: white;
+    z-index: -1;
+    position: absolute;
+    height: 400px;
+    width: 750px;
+}
+.btn{
+    background-color:  #D2872C;
+    border-color: white;
+    margin-left: 7%;
+    margin-top: 3%;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .mega-container{
+        width: 411px;
+    } 
+    .img-fluid{
+        margin-left: 2%;
+        margin-top: 0;
+        margin-bottom: 0px;
+        max-width: 85%; 
+        height: auto;
+    }
+    .navbar{
+        width: 90%;
+        margin-right:0px;
+        margin-left: 0%;
+        margin-top: 8%;
+    }
+    .container{
+        margin-top: 60%;
+        margin-right:0;
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .title{
+        margin-left: -15%;
+        margin-right:0% ;
+        font-size: 40px;
+        text-align: center;
+    }
+    .h5{
+        font-size: 20px;
+        text-align: center;
+        margin-left: -15%;
+    }
+    .btn{
+        width: 250px;
+        margin-left: 13%;
+    }
+}
